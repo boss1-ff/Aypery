@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Для Айпери ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Плавающие сердечки -->
+<div id="particles"></div>
+
+<!-- ================= НАВИГАЦИЯ ================= -->
+
+<header class="header">
+
+    <a href="#home" class="logo">
+        A<span>♥</span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn">
+        ☰
+    </button>
+
+    <nav id="nav">
+        <a href="#home">Главная</a>
+        <a href="#story">История</a>
+        <a href="#gallery">Фото</a>
+        <a href="#letter">Письмо</a>
+        <a href="#surprise">Сюрприз</a>
+        <a href="#secret">Секрет</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+<!-- ================= ГЛАВНАЯ ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content reveal">
+
+        <div class="small-title">
+            маленький личный подарок
+        </div>
+
+        <h1>
+            Для самой красивой<br>
+            <span>девушки ❤️</span>
+        </h1>
+
+        <div class="name">
+            Айпери
+        </div>
+
+        <p>
+            Иногда человек появляется в твоей жизни совсем неожиданно,
+            но за короткое время становится особенным.
+        </p>
+
+        <a href="#story" class="main-btn">
+            Открыть подарок ✨
+        </a>
+
+        <div class="scroll">
+            листай ниже ↓
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ИСТОРИЯ ================= -->
+
+<section id="story" class="section">
+
+    <div class="section-title reveal">
+
+        <span>01 · НАЧАЛО</span>
+
+        <h2>
+            Наша маленькая <i>история</i> 💕
+        </h2>
+
+    </div>
+
+
+    <div class="story-card reveal">
+
+        <p>
+            Мы познакомились в школе, и прошло всего 2–3 недели.
+            Вроде совсем немного времени, но иногда даже нескольких
+            недель достаточно, чтобы человек стал тебе по-настоящему дорог.
+        </p>
+
+    </div>
+
+
+    <div class="timeline">
+
+        <div class="timeline-item reveal">
+            <div class="circle"></div>
+            <h3>Знакомство</h3>
+            <p>Всё началось с одной встречи.</p>
+        </div>
+
+        <div class="timeline-item reveal">
+            <div class="circle"></div>
+            <h3>Общение</h3>
+            <p>Постепенно становимся чуть ближе.</p>
+        </div>
+
+        <div class="timeline-item reveal">
+            <div class="circle"></div>
+            <h3>Новые воспоминания</h3>
+            <p>Маленькие моменты становятся важными.</p>
+        </div>
+
+        <div class="timeline-item reveal">
+            <div class="circle"></div>
+            <h3>Продолжение истории...</h3>
+            <p>Самое интересное ещё впереди.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ФОТО ================= -->
+
+<section id="gallery" class="section">
+
+    <div class="section-title reveal">
+
+        <span>02 · МОМЕНТЫ</span>
+
+        <h2>
+            Айпери <i>✨</i>
+        </h2>
+
+        <p>
+            Несколько мест для красивых воспоминаний.
+        </p>
+
+    </div>
+
+
+    <div class="gallery">
+
+        <div class="photo-card reveal" onclick="openPhoto('images/aiperi1.jpg')">
+
+            <img
+                src="aiperi1.jpg"
+                alt="Айпери"
+                onerror="this.style.display='none'; this.parentElement.classList.add('empty-photo')"
+            >
+
+            <div class="placeholder">
+                Здесь будет её фотография ❤️
+            </div>
+
+            <div class="photo-text">
+                Открыть ↗
+            </div>
+
+        </div>
+
+
+        <div class="photo-card reveal" onclick="openPhoto('images/aiperi2.jpg')">
+
+            <img
+                src="aiperi2.jpg"
+                alt="Айпери"
+                onerror="this.style.display='none'; this.parentElement.classList.add('empty-photo')"
+            >
+
+            <div class="placeholder">
+                Здесь будет её фотография ❤️
+            </div>
+
+            <div class="photo-text">
+                Открыть ↗
+            </div>
+
+        </div>
+
+
+        <div class="photo-card reveal" onclick="openPhoto('images/aiperi3.jpg')">
+
+            <img
+                src="aiperi3.jpg"
+                alt="Айпери"
+                onerror="this.style.display='none'; this.parentElement.classList.add('empty-photo')"
+            >
+
+            <div class="placeholder">
+                Здесь будет её фотография ❤️
+            </div>
+
+            <div class="photo-text">
+                Открыть ↗
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ПИСЬМО ================= -->
+
+<section id="letter" class="section letter-section">
+
+    <div class="section-title reveal">
+
+        <span>03 · ОТ СЕРДЦА</span>
+
+        <h2>
+            Письмо для <i>Айпери</i> 💌
+        </h2>
+
+    </div>
+
+
+    <div class="envelope-area reveal">
+
+        <div class="envelope" id="envelope">
+
+            <div class="letter">
+
+                <div class="letter-paper">
+
+                    <small>для Айпери</small>
+
+                    <p id="letterText"></p>
+
+                    <strong>❤️</strong>
+
+                </div>
+
+            </div>
+
+            <div class="envelope-back"></div>
+
+            <div class="flap"></div>
+
+            <div class="envelope-front"></div>
+
+            <div class="envelope-title">
+                Для Айпери 💌
+            </div>
+
+        </div>
+
+
+        <button class="secondary-btn" id="letterBtn">
+            Открыть письмо
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ================= СЮРПРИЗ ================= -->
+
+<section id="surprise" class="section">
+
+    <div class="surprise-card reveal">
+
+        <div class="star">
+            ✦
+        </div>
+
+        <span>04 · ТОЛЬКО ДЛЯ ТЕБЯ</span>
+
+        <h2>
+            У меня для тебя есть<br>
+            <i>маленький сюрприз...</i>
+        </h2>
+
+        <p>
+            Иногда для хорошего момента нужна всего одна кнопка.
+        </p>
+
+        <button class="main-btn" onclick="openSurprise()">
+            Открыть сюрприз 🎁
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ================= СЕКРЕТ ================= -->
+
+<section id="secret" class="section secret">
+
+    <div class="section-title reveal">
+
+        <span>05 · HIDDEN</span>
+
+        <h2>
+            Есть кое-что <i>секретное</i> 🔐
+        </h2>
+
+        <p>
+            Небольшой уголок, который открывается только по паролю.
+        </p>
+
+    </div>
+
+
+    <button class="secret-btn reveal" onclick="openPassword()">
+        🔐 Секрет
+    </button>
+
+</section>
+
+
+<!-- ================= ФИНАЛ ================= -->
+
+<section class="final">
+
+    <div class="final-heart">
+        ♥
+    </div>
+
+    <h2>
+        Для Айпери ❤️
+    </h2>
+
+    <p>
+        Пусть эта маленькая страница всегда напоминает тебе
+        о том, что ты особенная.
+    </p>
+
+    <div class="small-heart">
+        ♡
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+    Для Айпери ❤️
+</footer>
+
+
+<!-- ================= LIGHTBOX ================= -->
+
+<div class="modal" id="photoModal">
+
+    <button class="close" onclick="closePhoto()">
+        ×
+    </button>
+
+    <img id="bigPhoto" src="" alt="Айпери">
+
+</div>
+
+
+<!-- ================= ПАРОЛЬ ================= -->
+
+<div class="modal" id="passwordModal">
+
+    <div class="password-box">
+
+        <button class="close" onclick="closePassword()">
+            ×
+        </button>
+
+        <div class="lock">
+            🔐
+        </div>
+
+        <span>
+            СЕКРЕТНЫЙ РАЗДЕЛ
+        </span>
+
+        <h2>
+            Введите пароль
+        </h2>
+
+        <p>
+            Интересно, получится ли открыть эту маленькую тайну? 🙈
+        </p>
+
+        <input
+            type="password"
+            id="passwordInput"
+            placeholder="Введите пароль"
+        >
+
+        <button class="main-btn" onclick="checkPassword()">
+            Открыть
+        </button>
+
+        <div id="passwordError"></div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= СЕКРЕТНЫЙ КОНТЕНТ ================= -->
+
+<div class="modal" id="secretModal">
+
+    <div class="secret-box">
+
+        <button class="close" onclick="closeSecret()">
+            ×
+        </button>
+
+        <div class="secret-heart">
+            ♥
+        </div>
+
+        <span>
+            СЕКРЕТ ОТКРЫТ
+        </span>
+
+        <h2>
+            Ты нашла секретный раздел ❤️
+        </h2>
+
+        <p>
+            Некоторые вещи хочется говорить не всем.
+            Поэтому этот маленький уголок оставлю только для тебя.
+        </p>
+
+        <div class="stars">
+            ✦　✦　✦
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= СЮРПРИЗ ================= -->
+
+<div class="surprise-overlay" id="surprise">
+
+    <div class="surprise-content">
+
+        <div class="big-heart">
+            ♥
+        </div>
+
+        <h2>
+            Ты действительно особенная, Айпери ❤️
+        </h2>
+
+        <p>
+            И это только маленькая часть того,
+            что хотелось тебе сказать.
+        </p>
+
+        <button class="main-btn" onclick="openSurprise()">
+            Ещё раз ✨
+        </button>
+
+        <button class="close-surprise" onclick="closeSurprise()">
+            Закрыть
+        </button>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
